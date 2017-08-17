@@ -17,3 +17,16 @@ it('should square a number', () => {
 	// 	throw new Error(`Expected 25, but got ${res}`)
 	// }
 })
+
+it('should async add two numbers', () => {
+	utils.asyncAdd(4, 3, (sum) => {
+		expect(sum).toBe(7).toBeA('number')
+	})
+})
+
+// it('should set the first and last name', () => {
+// 	var user = {location: 'New York', age: 25};
+// 	var res = utils.setName(user, 'Jawann Carmona')
+// 	expect(user).toBe('Jawann Carmona').toBeA('string')
+// })
+
