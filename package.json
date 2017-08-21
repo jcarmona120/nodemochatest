@@ -9,9 +9,13 @@
   },
   "author": "Jawann Carmona",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.4"
+  },
   "devDependencies": {
     "expect": "^1.20.2",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "rewire": "^2.5.2",
+    "supertest": "^3.0.0"
   }
 }
